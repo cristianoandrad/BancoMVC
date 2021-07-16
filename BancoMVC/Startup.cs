@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using BancoMVC.Data;
 
 namespace BancoMVC
 {
@@ -33,6 +35,10 @@ namespace BancoMVC
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<BancoMVCContext>(options =>
+                    options.UseMySql(Configuration.GetConnectionString("BancoMVCContext"), builder =>
+                builder.MigrationsAssembly("BancoMVC")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

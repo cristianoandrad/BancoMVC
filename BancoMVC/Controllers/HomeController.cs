@@ -1,4 +1,4 @@
-﻿using BancoMVC.Models;
+﻿using BancoMVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
