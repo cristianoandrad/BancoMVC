@@ -21,12 +21,14 @@ CheckList
 ***
 
 3 - Criar classes entidades
+
 -Botão direito na pasta Model e criar classe (Exemplo Clientes)
 -Criar as propriedades da classe
 *Compilar solução - Ctrl + Shit + B
 *** 
 
 4 - Adicionar Scaffolded Item
+
 -Botão direito na pasta Controllers, adicionar, adicionar novo item scaffold,
 escolher "Controlador MVC com exibições, usando Entity Framework", clicar em adicionar,
 escolher Classe modelo (exemplo clientes),
@@ -35,6 +37,7 @@ criar classe de contexto de dados no botão "+", e clicar e adicionar
 ***
 
 5 - Adaptação para MySql 
+
 -Corrigir no appsettings.json a string de conexão em "BancoMVCContext": "server=localhost;userid=suporte;port=4569;password=suporte;database=bancomvc"
 -Corrigir no Startup.cs, no método ConfigureServices, a operação: 
 	options.UseSqlServer(Configuration.GetConnectionString("BancoMVCContext")));
@@ -47,6 +50,7 @@ para:
 ***
 
 6 - Gerar a Migration para a base de dados com base na classe
+
 6.1 Cria o script que cria a base
 	Abrir o terminal do NuGet, Ferramentas, Gerenciador de Pacotes do NuGet, Console do Gerenciador de Pacotes, digitar:
 	Add-Migration Initial
