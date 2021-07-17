@@ -4,12 +4,15 @@ Curso C# BancoMVC
 ***
 
 *CheckList
+
 **1 - Criando Novo Projeto no VS
+
 -Selecionar modelo: Aplicativo Web do ASP.NET Core (Model-ViewController)
 *Iniciar projeto Ctrl + F5z
 ***
 
 ##2 -  Organizar projeto pasta Model
+
 -Botão direto pasta Model, adicionar nova pasta nome "ViewModels" e mover ErrorViewModel.cs para esta pasta
 -Corrigir no ErrorViewModel.cs o namespace para "namespace BancoMVC.Models.ViewModels"
 -Corrigir no Error.cshtml na linha 1 "@model BancoMVC.Models.ViewModels.ErrorViewModel"
