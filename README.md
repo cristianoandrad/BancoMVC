@@ -3,8 +3,8 @@ Curso C# BancoMVC
 
 ***
 
-#CheckList
-##1 - Criando Novo Projeto no VS
+*CheckList
+**1 - Criando Novo Projeto no VS
 -Selecionar modelo: Aplicativo Web do ASP.NET Core (Model-ViewController)
 *Iniciar projeto Ctrl + F5z
 ***
