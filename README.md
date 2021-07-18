@@ -5,7 +5,7 @@
 
 ## CheckList
 
-*   
+   
 ### Instalação para esse curso
 
 .NET Core 2.1. Segue link
@@ -15,7 +15,7 @@ MySQL Workbench Segue link
 https://www.mysql.com/products/workbench/
 
 
-* 
+ 
 ### 1 - Criando Novo Projeto no VS
 
 Selecionar modelo: Aplicativo Web do ASP.NET Core (Model-ViewController)
@@ -24,7 +24,7 @@ Selecionar .NET Core 2.1
 
 *Iniciar projeto Ctrl + F5z
 
-* 
+ 
 ### 2 -  Organizar projeto - pasta Model (mover porque não é uma entidade do projeto, é um modelo auxiliar das telas)
 
 Botão direto pasta Model, adicionar nova pasta nome "ViewModels" e mover ErrorViewModel.cs para esta pasta.
@@ -37,7 +37,7 @@ Corrigor Controllers> no HomeController.cs o "using BancoMVC.Models.ViewModels;"
 
 Compilar solução - Ctrl + Shit + B 
 
-* 
+
 ### 3 - Criar classes entidades
 
 Botão direito na pasta Model e criar classe (Exemplo Clientes)
@@ -46,7 +46,7 @@ Criar as propriedades da classe
 
 *Compilar solução - Ctrl + Shit + B
 
-* 
+ 
 ### 4 - Adicionar Scaffolded Item
 
 Botão direito na pasta Controllers, adicionar, adicionar novo item scaffold.
@@ -57,7 +57,7 @@ Escolher Classe modelo (exemplo clientes), criar classe de contexto de dados no 
 
 *Compilar solução - Ctrl + Shit + B 
 
-* 
+ 
 ### 5 - Adaptação para MySql 
 
 Corrigir no appsettings.json a string de conexão em "BancoMVCContext": "server=localhost;userid=suporte;port=4569;password=suporte;database=bancomvc"
@@ -82,7 +82,7 @@ Para adicionar provider MySql, abrir o terminal do NuGet, Ferramentas> Gerenciad
 	
 *Compilar solução - Ctrl + Shit + B 
 
-* 
+ 
 ### 6 - Gerar a Migration para a base de dados com base na classe
 
 Cria o script que cria a base
@@ -98,5 +98,5 @@ Abrir o terminal do NuGet, Ferramentas, Gerenciador de Pacotes do NuGet, Console
 Update-Database
 
 *Iniciar projeto Ctrl + F5
-***
+
 
