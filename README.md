@@ -22,7 +22,7 @@ Selecionar modelo: Aplicativo Web do ASP.NET Core (Model-ViewController)
 
 Selecionar .NET Core 2.1
 
-*Iniciar projeto Ctrl + F5z
+*Iniciar projeto Ctrl + F5
 
  
 ### 2 -  Organizar projeto - pasta Model (mover porque não é uma entidade do projeto, é um modelo auxiliar das telas)
